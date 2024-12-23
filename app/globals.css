@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--background: #f6eee3;
+	--foreground: #eee7d7;
+	--primary: #202020;
+	--secondary: #646464;
+	--tertiary: #e0c9a6;
+}
+
+/* @media (prefers-color-scheme: dark) {
+	:root {
+		--background: #0a0a0a;
+		--foreground: #ededed;
+	}
+} */
+
+html,
+body {
+	color: var(--foreground);
+	background-color: var(--background);
+	/* background-image: url('../../public/natural-paper.png');
+	background-repeat: repeat;
+	background-size: auto;
+	background-position: top left; */
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
